@@ -20,7 +20,25 @@
             </table>
         </div>
         <div class="headadress">
-            <p>Ihre Rechnungsanschrift:<br>Some adreess below</p>
+            <p><b></b>Ihre Rechnungsanschrift:</b><br>Some adreess below</p>
+        </div>
+        <div>
+            <table id="infoTab">
+                <tr id="infoTabHead">
+                    <th>Kunden Nr.</th>
+                    <th>Auftragsnummer</th>
+                    <th>Paketnummer</th>
+                    <th>Rechnungsdatum</th>
+                    <th>Seite</th>
+                </tr>
+                <tr id="infotabDescr">
+                    <td>20777444</td>
+                    <td>03782876</td>
+                    <td>03782876</td>
+                    <td>11.06.19</td>
+                    <td>1</td>
+                </tr>
+            </table>
         </div>
         <div>
             <table id="firstTable">
@@ -72,16 +90,40 @@
                     
                  </tr>
                  <tr id="firstTableSumm">
-                    <td></td>
-                    <td></td>
-                    <td class="artikel" style="border: none;">Versndkosion</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="gesam" style="border: none;">3.50</td>
+                    <td colspan="3" class="artikel" id="vers" style="border-right: 0px;">Versndkosion</td>
+                   
+                    <td colspan="4" class="gesam" id="versSumm" style="border-left: 0px;">3.50</td>
                  </tr>
-            </table>
-        </div>
+                 <tr>
+                    <td colspan="3"></td>
+                    <td colspan="3" id="botomRightName1">Brutto-Rechnungsbetrag</td>
+                    <td id="botomRightSumm1">105,07</td>
 
+                 </tr>
+                 <tr>
+                    <td colspan="3" rowspan="2">Ihre Zahlungsart: Nachnahme<br>Gutgeschriebene Treuepunkte: 47.9</td>
+                    <td colspan="3" rowspan="2" id="botomRightName2">Gutschein</td>
+                    <td rowspan="2"id="botomRightSumm2">-100.00</td>
+                 </tr>
+                 <tr></tr>
+                 <tr ></tr>
+                 <tr class="botomRightTable" style="border-right: 1px solid black">
+                    <td id="botomRightHead1"><b>Nettorechnungs-Betrag</b></td>
+                    <td id="botomRightHead2"><b>MwSt-Betrag</b></td>
+                    <td id="botomRightHead3"><b>Brutto-Rechnungsbetrag</b></td>
+                
+                 </tr>
+                 <tr class="botomRightTable">
+                    <td id="botomRightDesk1">88.15</td>
+                    <td id="botomRightDesk2">16.92</td>
+                    <td id="botomRightDesk3">105.07</td>
+                    <td colspan="3" id="botomRightName3">Zahlungsbetrag</td>
+                    <td id="botomRightSumm3">5.07</td>
+                 </tr>
+
+            </table>
+
+        </div>
+        
     </body>
 </html>

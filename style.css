@@ -24,14 +24,13 @@ body {
 }
 #firstTable {
     width: 100%;
-    border: 2px solid black;
-    border-collapse: collapse;
+   border-collapse: collapse;
 }
 #firstTableHead {
     justify-content: flex-start;
     text-align: center;
     border: 1px solid black;
-    border-collapse: collapse;
+ 
     height: 60px;
 }
 
@@ -40,19 +39,25 @@ body {
 }
 .table1 {
     border: 1px solid black;
-    border-collapse: collapse;
+
 
 }
 .nr, .menge, .artikel, .enzel, .robat, .mwst, .gesam {
     
         border: solid black;
         border-width: 0px 1px;
-        border-collapse: collapse;
+
+}
+.nr {
+    border-left: 1px solid black;
+}
+.gesam {
+    border-right: 1px solid black;
 }
 #firstTableSumm {
     border: solid black;
     border-width: 1px 0px;
-    border-collapse: collapse;
+
 }
 #firstTableFourthRow {
     height: 240px;
@@ -68,4 +73,73 @@ body {
 }
 td {
     padding: 10px;
+}
+#infoTab {
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+}
+#botomRightHead1 {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-collapse: collapse;
+}
+#botomRightHead2 {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-collapse: collapse;
+}
+#botomRightHead3 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-collapse:separate;
+}
+#botomRightDesk1 {
+    border-left:1px solid black ;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+#botomRightDesk2 {
+    border-left:1px solid black ;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#botomRightDesk3 {
+    border-right:1px solid black ;
+    border-bottom:1px solid black ;
+    border-collapse: separate;
+}
+#vers {
+    border-left: 1px solid black;
+    border-collapse: collapse;
+}
+#versSumm {
+    border-right: 1px solid black;
+    border-collapse: collapse;
+}
+#botomRightName1,  #botomRightName3 {
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black ;
+    border-left: 1px solid black ;
+    border-collapse: collapse;
+}
+#botomRightSumm1, #botomRightSumm3 {
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black ;
+    border-right: 1px solid black ;
+    border-collapse: collapse;
+}
+ #botomRightName2, #botomRightSumm2 {
+    border-top: 1px solid black ;
+    border-collapse: collapse;
+}
+#botomRightName2 {
+    border-left:  1px solid black  ;
+}
+#botomRightSumm2 {
+    border-right:  1px solid black  ;
+}
+.botomRightTable {
+    border-collapse: separate;
 }
