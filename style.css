@@ -25,17 +25,47 @@ body {
 #firstTable {
     width: 100%;
     border: 2px solid black;
+    border-collapse: collapse;
 }
 #firstTableHead {
-    justify-content: center;
-    
-}
-th {
+    justify-content: flex-start;
+    text-align: center;
     border: 1px solid black;
+    border-collapse: collapse;
+    height: 60px;
 }
-td {
-    border: 1px solid black;
-}
+
 #firstTableSumm {
     border: none;
+}
+.table1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+.nr, .menge, .artikel, .enzel, .robat, .mwst, .gesam {
+    
+        border: solid black;
+        border-width: 0px 1px;
+        border-collapse: collapse;
+}
+#firstTableSumm {
+    border: solid black;
+    border-width: 1px 0px;
+    border-collapse: collapse;
+}
+#firstTableFourthRow {
+    height: 240px;
+}
+.nr, .enzel, .robat, .mwst, .gesam {
+    text-align: end;
+}
+.menge, .artikel {
+    text-align: center;
+}
+#firstTableFirstRow, #firstTableSecondhRow, #firstTableThirdRow {
+    height: 30px;
+}
+td {
+    padding: 10px;
 }
