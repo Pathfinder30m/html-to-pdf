@@ -1,0 +1,41 @@
+body {
+    margin: 10%;
+    border-top: solid 1px black;
+}
+.logo {
+    padding: 20px;
+}
+.rechnung {
+    padding-left: 30px;
+}
+
+.heading {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.headtablval {
+    text-align: end;
+}
+.headadress {
+    width: fit-content;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+#firstTable {
+    width: 100%;
+    border: 2px solid black;
+}
+#firstTableHead {
+    justify-content: center;
+    
+}
+th {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+#firstTableSumm {
+    border: none;
+}
