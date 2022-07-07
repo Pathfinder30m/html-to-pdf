@@ -23,16 +23,16 @@
             <p><b></b>Ihre Rechnungsanschrift:</b><br>Some adreess below</p>
         </div>
         <div>
-            <table id="infoTab">
+            <table id="infoTab" style="width: 100%;">
                 <tr id="infoTabHead">
-                    <th>Kunden Nr.</th>
-                    <th>Auftragsnummer</th>
+                    <th id="infotabKund">Kunden Nr.</th>
+                    <th >Auftragsnummer</th>
                     <th>Paketnummer</th>
                     <th>Rechnungsdatum</th>
                     <th>Seite</th>
                 </tr>
                 <tr id="infotabDescr">
-                    <td>20777444</td>
+                    <td id="infotabKuns">20777444</td>
                     <td>03782876</td>
                     <td>03782876</td>
                     <td>11.06.19</td>
@@ -41,88 +41,77 @@
             </table>
         </div>
         <div>
-            <table id="firstTable">
-                <tr id="firstTableHead">
-                    <th class="headNr table1">Nr.</th>
-                    <th class="headMenge table1">Menge</th>
-                    <th class="headArtikel table1">Artikelbezeichnung</th>
-                    <th class="headEnzel table1">Einzelpreis<br>EUR</th>
-                    <th class="headRobat table1">Robatt<br>EUR</th>
-                    <th class="headMwst table1">MwSt.</th>
-                    <th class="headGesam table1">Gesamtpreis<br>EUR</th>
+            <table id="mainTable" style="width: 100%;">
+                <tr >
+                    <th class="mainTableHead" id="headNr">Nr.</th>
+                    <th class="mainTableHead" id="headMen">Menge</th>
+                    <th class="mainTableHead" id="headArt">Artikelbezeichnung</th>
+                    <th class="mainTableHead" id="headEinz">Einzelpries<br>EUR</th>
+                    <th class="mainTableHead" id="headRob">Robatt<br>EUR</th>
+                    <th class="mainTableHead" id="headMw">MwSt.</th>
+                    <th class="mainTableHead" id="HeadGes">Gesamtpreis<br>EUR</th>
                 </tr>
-                <tr id="firstTableFirstRow">
-                    <td class="nr">1</td>
-                    <td class="menge">1</td>
-                    <td class="artikel">278.40300 DKNNY Deloous EDP VAPO</td>
-                    <td class="enzel">19.99</td>
-                    <td class="robat">0.00</td>
-                    <td class="mwst">20%</td>
-                    <td class="gesam">19,99</td>
-                 </tr>
-                 <tr id="firstTableSecondRow">
-                    <td class="nr">2</td>
-                    <td class="menge">1</td>
-                    <td class="artikel">474.43000 KENZO L'EAU EDT SPRAY</td>
-                    <td class="enzel">46.99</td>
-                    <td class="robat">9.40</td>
-                    <td class="mwst">20%</td>
-                    <td class="gesam">37.59</td>
-                 </tr>
-                 <tr id="firstTableThirdRow">
-                    <td class="nr">3</td>
-                    <td class="menge">1</td>
-                    <td class="artikel">448.20420 MIYKE L'EAU Nat.Spray Refilable</td>
-                    <td class="enzel">54.99</td>
-                    <td class="robat">11.00</td>
-                    <td class="mwst">20%</td>
-                    <td class="gesam">43.99</td>
-
-                 </tr>
-                 <tr id="firstTableFourthRow">
-                    <td class="nr"></td>
-                    <td class="menge"></td>
-                    <td class="artikel"></td>
-                    <td class="enzel"></td>
-                    <td class="robat"></td>
-                    <td class="mwst"></td>
-                    <td class="gesam"></td>
-                    
-                 </tr>
-                 <tr id="firstTableSumm">
-                    <td colspan="3" class="artikel" id="vers" style="border-right: 0px;">Versndkosion</td>
-                   
-                    <td colspan="4" class="gesam" id="versSumm" style="border-left: 0px;">3.50</td>
-                 </tr>
-                 <tr>
+                <tr>
+                    <td class="mainDeskNr">1</td>
+                    <td class="mainDeskMen">1</td>
+                    <td class="mainDeskArt">278.40300 DKNY Delicious EDP VAPO</td>
+                    <td class="mainDeskEinz">19.99</td>
+                    <td class="mainDeskRob">0.00</td>
+                    <td class="mainDeskMw">20%</td>
+                    <td class="mainDeskGes">19.99</td>
+                </tr>
+                <tr>
+                    <td class="mainDeskNr">2</td>
+                    <td class="mainDeskMen">1</td>
+                    <td class="mainDeskArt">474.43000 Kenzo L'EAU EDT SPRAY</td>
+                    <td class="mainDeskEinz">46.99</td>
+                    <td class="mainDeskRob">9.40</td>
+                    <td class="mainDeskMw">20%</td>
+                    <td class="mainDeskGes">37.59</td>
+                </tr>
+                <tr>
+                    <td class="mainDeskNr">3</td>
+                    <td class="mainDeskMen">1</td>
+                    <td class="mainDeskArt">448.20420 MIYAKE L'EAU EdP Nat. Spray Refilable</td>
+                    <td class="mainDeskEinz">54.99</td>
+                    <td class="mainDeskRob">11.00</td>
+                    <td class="mainDeskMw">20%</td>
+                    <td class="mainDeskGes">43.99</td>
+                </tr>
+                <tr id="lastTR">
+                    <td class="mainDeskNr"></td>
+                    <td class="mainDeskMen"></td>
+                    <td class="mainDeskArt"></td>
+                    <td class="mainDeskEinz"></td>
+                    <td class="mainDeskRob"></td>
+                    <td class="mainDeskMw"></td>
+                    <td class="mainDeskGes"></td>
+                </tr>
+                <tr id="mainFoterRow">
+                    <td colspan="3" class="mainFoter" id="foterDesk">Versandkosion</td>
+                    <td colspan="4" class="mainFoter" id="foterSumm">3.50</td>
+                </tr>
+                <tr>
                     <td colspan="3"></td>
-                    <td colspan="3" id="botomRightName1">Brutto-Rechnungsbetrag</td>
-                    <td id="botomRightSumm1">105,07</td>
-
-                 </tr>
-                 <tr>
-                    <td colspan="3" rowspan="2">Ihre Zahlungsart: Nachnahme<br>Gutgeschriebene Treuepunkte: 47.9</td>
-                    <td colspan="3" rowspan="2" id="botomRightName2">Gutschein</td>
-                    <td rowspan="2"id="botomRightSumm2">-100.00</td>
-                 </tr>
-                 <tr></tr>
-                 <tr ></tr>
-                 <tr class="botomRightTable" style="border-right: 1px solid black">
-                    <td id="botomRightHead1"><b>Nettorechnungs-Betrag</b></td>
-                    <td id="botomRightHead2"><b>MwSt-Betrag</b></td>
-                    <td id="botomRightHead3"><b>Brutto-Rechnungsbetrag</b></td>
+                    <td colspan="3" class="botomRighttab botomrightdesk"><b>Brutto-Rechnungsbetrag</b></td>
+                    <td class="botomRighttab botomrightsumm"><b>105,07</b></td>
+                </tr>
+                <tr>
+                    <td colspan="3"></td>
+                    <td class="botomRighttab botomrightdesk widerow" colspan="3" >Gutschein</td>
+                    <td class="botomRighttab botomrightsumm widerow">-100</td>
+                </tr>
+               <tr></tr>
+                <tr>
+                    <td colspan="3"></td>
+                    <td colspan="3" class="botomRighttab botomrightdesk">Zahlungsbetrag</td>
+                    <td class="botomRighttab botomrightsumm">5.07</td>
+                </tr>
+             
                 
-                 </tr>
-                 <tr class="botomRightTable">
-                    <td id="botomRightDesk1">88.15</td>
-                    <td id="botomRightDesk2">16.92</td>
-                    <td id="botomRightDesk3">105.07</td>
-                    <td colspan="3" id="botomRightName3">Zahlungsbetrag</td>
-                    <td id="botomRightSumm3">5.07</td>
-                 </tr>
-
+                
             </table>
-
+        
         </div>
         
     </body>

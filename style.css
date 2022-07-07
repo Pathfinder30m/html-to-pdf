@@ -16,130 +16,68 @@ body {
 .headtablval {
     text-align: end;
 }
+#infotabDescr td{
+    padding-bottom: 25px;
+}
+#infoTabHead th {
+    padding-bottom: 10px;
+}
 .headadress {
     width: fit-content;
     padding-left: 40px;
     padding-top: 20px;
 
 }
-#firstTable {
-    width: 100%;
-   border-collapse: collapse;
-}
-#firstTableHead {
-    justify-content: flex-start;
+#infotabDescr {
     text-align: center;
-    border: 1px solid black;
- 
-    height: 60px;
 }
-
-#firstTableSumm {
-    border: none;
+table {
+    border-collapse: collapse;
 }
-.table1 {
-    border: 1px solid black;
-
-
+#mainTable {
+    padding-top: 20px;
 }
-.nr, .menge, .artikel, .enzel, .robat, .mwst, .gesam {
-    
-        border: solid black;
-        border-width: 0px 1px;
-
-}
-.nr {
+.mainDeskNr, .mainDeskMen, .mainDeskArt, .mainDeskEinz, .mainDeskRob, .ainDeskMw, .mainDeskGes{
     border-left: 1px solid black;
-}
-.gesam {
     border-right: 1px solid black;
+    border-collapse: collapse;
 }
-#firstTableSumm {
-    border: solid black;
-    border-width: 1px 0px;
-
+.mainTableHead {
+    vertical-align: top;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
 }
-#firstTableFourthRow {
-    height: 240px;
+#mainFoterRow, .botomRighttab {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
-.nr, .enzel, .robat, .mwst, .gesam {
+.botomrightdesk {
+    border-right: none;
+}
+.botomrightsumm {
+    border-left: none;
+}
+.mainDeskNr, .mainDeskEinz, .mainDeskRob, .mainDeskMw, .mainDeskGes, #foterSumm, .botomrightsumm {
     text-align: end;
 }
-.menge, .artikel {
+.mainDeskMen, #foterDesk {
     text-align: center;
 }
-#firstTableFirstRow, #firstTableSecondhRow, #firstTableThirdRow {
-    height: 30px;
+.mainDeskArt {
+    text-align: start;
+}
+#lastTR {
+    height: 120px;
+}
+#mainFoterRow {
+    height: 35px;
+    vertical-align: middle;
 }
 td {
     padding: 10px;
 }
-#infoTab {
-    width: 100%;
-    text-align: center;
-    padding: 25px;
-}
-#botomRightHead1 {
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-collapse: collapse;
-}
-#botomRightHead2 {
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-collapse: collapse;
-}
-#botomRightHead3 {
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-collapse:separate;
-}
-#botomRightDesk1 {
-    border-left:1px solid black ;
-    border-bottom: 1px solid black;
-    border-collapse: collapse;
-}
-#botomRightDesk2 {
-    border-left:1px solid black ;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-}
-#botomRightDesk3 {
-    border-right:1px solid black ;
-    border-bottom:1px solid black ;
-    border-collapse: separate;
-}
-#vers {
-    border-left: 1px solid black;
-    border-collapse: collapse;
-}
-#versSumm {
-    border-right: 1px solid black;
-    border-collapse: collapse;
-}
-#botomRightName1,  #botomRightName3 {
-    border-top: 1px solid black ;
-    border-bottom: 1px solid black ;
-    border-left: 1px solid black ;
-    border-collapse: collapse;
-}
-#botomRightSumm1, #botomRightSumm3 {
-    border-top: 1px solid black ;
-    border-bottom: 1px solid black ;
-    border-right: 1px solid black ;
-    border-collapse: collapse;
-}
- #botomRightName2, #botomRightSumm2 {
-    border-top: 1px solid black ;
-    border-collapse: collapse;
-}
-#botomRightName2 {
-    border-left:  1px solid black  ;
-}
-#botomRightSumm2 {
-    border-right:  1px solid black  ;
-}
-.botomRightTable {
-    border-collapse: separate;
+.widerow {
+    height: 80px;
+    vertical-align: top;
 }
