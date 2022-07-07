@@ -88,7 +88,7 @@ td {
 border: 1px solid black;
 border-collapse: collapse;
 }
-#moveUp {
+#moveUp, #moveUp2, #footer  {
     position: relative;
     bottom: 145px;
 }
@@ -103,7 +103,10 @@ border-collapse: collapse;
     padding-bottom: 10px;
     text-align: center;
 } 
-#moveUp2 {
-    position: relative;
-    bottom: 145px;
+
+.foterP {
+    width: 25%;
+padding: 15px;
+    display: inline-block;
+    vertical-align: top;
 }
