@@ -81,3 +81,29 @@ td {
     height: 80px;
     vertical-align: top;
 }
+#botomleftP, #botomleftTab {
+    width: 50%;
+}
+.botomlefttable1, .botomlefttable2, .botomlefttable3 {
+border: 1px solid black;
+border-collapse: collapse;
+}
+#moveUp {
+    position: relative;
+    bottom: 145px;
+}
+.upPart {
+    border-bottom: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.downPart {
+    border-top: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+#moveUp2 {
+    position: relative;
+    bottom: 145px;
+}
