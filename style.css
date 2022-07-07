@@ -105,8 +105,8 @@ border-collapse: collapse;
 } 
 
 .foterP {
-    width: 25%;
-padding: 15px;
+    width: 32%;
+    padding-top: 15px;
     display: inline-block;
-    vertical-align: top;
+    align-items: center;
 }
