@@ -103,10 +103,13 @@ border-collapse: collapse;
     padding-bottom: 10px;
     text-align: center;
 } 
-
-.foterP {
-    width: 32%;
+#footer {
+    display: flex;
+    justify-content: space-around;
+}
+.col {
+    width: 20%;
     padding-top: 15px;
-    display: inline-block;
-    align-items: center;
+   
+   
 }
